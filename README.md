@@ -2,22 +2,22 @@
 
 ## Encoding
 
-This is a simple program written in C for converting a message into beeps and boops:
+This simple program written in C can be used to encode a message into beeps and boops like this:
 ```sh
 ./tb 'Message'
 ```
-Which will result in the following output:
+Output:
 ```
 boop beep boop boop beep beep boop beep boop beep beep boop boop beep boop beep boop beep beep beep boop boop beep beep boop beep beep beep boop boop beep beep boop beep beep boop boop boop boop beep boop beep beep boop boop beep beep beep boop beep beep boop boop beep boop beep
 ```
 
 ## Decoding
 
-There is also a shell script called `decode.sh`, which can be used to decode an encoded message like this:
+The shell script `decode.sh` can be used to decode an encoded message like this:
 ```sh
 ./decode.sh 'boop beep boop boop beep beep boop beep boop beep beep boop boop beep boop beep boop beep beep beep boop boop beep beep boop beep beep beep boop boop beep beep boop beep beep boop boop boop boop beep boop beep beep boop boop beep beep beep boop beep beep boop boop beep boop beep'
 ```
-Which will result in the following output:
+Output:
 ```
 Message
 ```
