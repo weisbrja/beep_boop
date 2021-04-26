@@ -4,7 +4,7 @@ int main(int argc, char* argv[])
 {
 	if (argc != 2)
 	{
-		printf("Usage: tb [text]\n");
+		printf("Usage: tb text\n");
 		return 1;
 	}
 
