@@ -2,7 +2,7 @@
 
 ## Encoding
 
-This simple program written in C can be used to encode a message into beeps and boops like this:
+This simple program written in C can be used to convert a message into beeps and boops like this:
 ```sh
 ./tb 'Message'
 ```
